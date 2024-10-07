@@ -1,0 +1,251 @@
+
+body {
+    background-color: #f0f0f5; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Nav */
+nav {
+    margin-bottom: 15px;
+    background-color: #1f2a38; 
+   
+}
+nav a{
+    color: #ffffff !important;
+
+}
+nav a:hover{
+    background-color: #35495e ;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.vacio {
+    width: 55%;
+}
+
+/* Header */
+header {
+    background-color: #2e3b4e; 
+    height: auto;
+    margin-bottom: 10px;
+    height: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.lead{
+    color: #ffffff;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: #2e3b4e ; 
+    border: 1px solid #2e3b4e; 
+    text-align: center;
+  
+}
+
+.card img {
+    width: 100%;
+    margin: 5px;
+    border-radius: 60%;
+    outline: none;
+}
+
+.card-body {
+    background-color: #e0e4eb; 
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+.card-img-top {
+    border-radius: 60%;
+    outline: none;
+}
+
+
+
+h2 {
+    text-align: center;
+    background-color: #1f2a38; 
+    color: #ffffff; 
+}
+
+.linea-divisoria {
+    display: inline-block;
+    width: 100%; 
+    height: 1px; 
+    background-color: #b0bec5;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+/* Acerca De Mí */
+#mi {
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+}
+#mi contenido {
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+#port{
+    margin: 10px;
+}
+h5{
+    text-align: center;
+    padding-top: 10px;
+}
+/* Carrousel */
+.carousel img {
+    width: 100%;
+    height: 150px;
+    background-color: #d9e2ec;
+}
+.carousel-title{
+    text-align: center;
+    cursor: pointer;
+    
+}
+.carousel-title:hover {
+    text-decoration: underline; 
+}
+.carousel-container.zoomed {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% */
+    transition: transform 0.3s ease; /* Suaviza la transición */
+    z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
+    position: fixed; /* Cambia a fixed para que esté fijo en la pantalla */
+    top: 50%; /* Centro verticalmente */
+    left: 50%; /* Centro horizontalmente */
+    transform: translate(-50%, -50%) scale(1.5); /* Centra y aplica el zoom */
+    width: 60%; /* Asegúrate de que sea un buen tamaño */
+    max-width: 400px; /* Limita el tamaño máximo para evitar desbordamientos */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
+    background-color:#1f2a38;
+    color: white;
+    text-align: center;
+}
+/*proyectos*/
+.row img {
+    width: 100%; 
+    transition: transform 0.3s ease; /* Transición suave para el zoom */
+}
+
+.row img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% al pasar el mouse */
+}
+
+/* Formulario de Contacto */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+form fieldset legend h2 {
+    text-align: center;
+}
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #78909c; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #1f2a38; 
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #35495e; 
+}
+
+.col-md-8 {
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2a38; 
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #1f2a38;
+}
+
+.direccion, #redes {
+    text-align: center;
+}
+
+.linke {
+    background-color: #0077b5; 
+    border: none;
+}
+.linke:hover {
+    background-color: #005582;
+}
+.insta {
+    border: none;
+    background: #e1306c; 
+}
+.insta:hover {
+    background-color: #b32759;
+}
+.face {
+    background-color: #3b5998;
+}
+.face:hover {
+    background-color: #314d86;
+}
+.redes-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.copy {
+    text-align: center;
+    padding: 10px;
+    background-color: #2e3b4e; 
+}
+
+.copy p {
+    margin: 0;
+    color: #ffffff; 
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="https://kit.fontawesome.com/a8fca0405a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#yo">
+                Barrios Dante
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="vacio">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#port">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mi">
+                            Acerca De Mí
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont">
+                            Contactos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header id="yo">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/avatar.png" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Barrios Dante
+                            </h5>
+                            <p class="card-text">
+                                Desarrollador De Software
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <p class="lead">
+                        "Pobre del que tiene miedo de correr riesgos.
+                    </p>
+                    <p class="lead">
+                        Porque ese quizá no se decepcione nunca,
+                    </p>
+                    <p class="lead">
+                        ni tenga desilusiones,
+                    </p>
+                    <p class="lead">
+                        ni sufra como los que persiguen un sueño."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+                <!-- Acerca De Mí -->
+        <section id="mi">
+            <div class="container">
+               
+                    <h2>
+                        Acerca De Mi
+                    </h2>
+                    <span class="linea-divisoria"></span>
+                    
+                    <div class="col-md-12 contenido">
+                        <p >
+                            Soy estudiante de desarrollo de software con pasión por la tecnología y el
+                        </p>
+                        <p >
+                            aprendizaje constante. Me especializo en el diseño y desarrollo de soluciones tecnológicas que
+                        </p>
+                        <p >
+                            resuelven problemas reales y mejoran la eficiencia. A lo largo de mi formación, he adquirido
+                        </p>
+                        <p >
+                            habilidades en lenguajes como JavaScript, Python, y bases de datos, además de haber trabajado
+                        </p>
+                        <p>
+                            en proyectos que integran tanto el front-end como el back-end.
+                        </p>
+                        <p>
+                            Mi objetivo es seguir creciendo como desarrollador y colaborar en proyectos desafiantes que me
+                        </p>
+                        <p>
+                            permitan poner en práctica mis conocimientos, mientras sigo aprendiendo y explorando nuevas
+                        </p>
+                        <p>
+                            tecnologías. Me motiva la creatividad, el trabajo en equipo y el impacto positivo que el software
+                        </p>
+                        <p>
+                            puede tener en la vida de las personas.
+                        </p>
+                    </div>
+            
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section id="port"></section>
+            <div class="container">
+                <h2>
+                    Portfolio
+                </h2>
+                <span class="linea-divisoria"></span>
+                
+                <div class="row">
+                    <div id="carouselContainer1" class="carousel-container col-md-4">
+                        <h5>Tecnologías que conozco</h5>
+                        <span class="linea-divisoria"></span>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/html.jpeg" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/css.png" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/JavaScript.png" alt="Third slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/php2.jpeg" alt="4 slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/mysql2.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/python.png" alt="">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <p class="carousel-title" onclick="zoomCarousel('carouselContainer1')">zoom<p>
+                    </div>
+                    <div id="carouselContainer2" class="carousel-container col-md-4">
+                        <h5>Tec. que quiero aprender</h5>
+                        <span class="linea-divisoria"></span>
+                        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/React.png" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/mongo.png" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/Java.png" alt="Third slide">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                          <p class="carousel-title" onclick="zoomCarousel('carouselContainer2')">zoom<p></p>
+                    </div>
+                    <div id="carouselContainer3" class="carousel-container col-md-4">
+                        <h5>Mis hobbies</h5>
+                        <span class="linea-divisoria"></span>
+                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img class="d-block w-100" src="assets/img/leer.jpeg" alt="First slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/pelis.webp" alt="Second slide">
+                              </div>
+                              <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/img/musica.jpg" alt="Third slide">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <p class="carousel-title" onclick="zoomCarousel('carouselContainer3')">zoom<p></p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="port"></section>
+            <div class="container">
+                <h2>
+                    Proyectos
+                </h2>
+                <span class="linea-divisoria"></span>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://to-do-list-d2b.netlify.app/" target="_blank">
+                            <img src="assets/img/toDo.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://color-game-bd.netlify.app/" target="_blank">
+                            <img src="assets/img/color.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://weather-channel-d2b.netlify.app/" target="_blank">
+                            <img src="assets/img/clima.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Contacto -->
+    <section id="cont">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form action="https://formspree.io/f/mjvlayly" class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-center header">
+                                    <h2>
+                                        Contactame
+                                    </h2>
+                                    <span class="linea-divisoria"></span>
+                                </legend>
+                                <div class="col-md-8">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control" required/>
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control" required/>
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="email" name="email" type="text" placeholder="Email " class="form-control"required/>
+                                </div>
+                                <div class="col-md-8">
+                                    <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control"required/>
+                                </div>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" id="message"name="message" rows="5" placeholder="Dejanos Tu Mensaje" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-8 text-center">
+                                    <button type="submit" >
+                                        Enviar
+                                    </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row direccion ">
+            <div class="col-md-6">
+                <h3>
+                    Dirección
+                </h3>
+                <span class="linea-divisoria"></span>
+                <p>
+                    Mitre 1600
+                </p>
+                <p>
+                    Vila Ocampo,Sta Fe
+                </p>
+            </div>
+            <!-- redes -->
+            <div id="redes" class="col-md-6 flex-center">
+                <h3>
+                    Redes
+                </h3>
+                <span class="linea-divisoria"></span>
+                <div class="grupo" role="group" aria-label="Basic example">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook face btn btn-primary"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram insta btn btn-primary"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin linke btn btn-primary"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-12 copy">
+        
+        <p>&copy; 2024 Barrios Dante. Todos los derechos reservados.</p>
+        <p>de Escalada para el mundo </p>
+    </div>
+</footer>
+
+
+</html>
